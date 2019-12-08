@@ -1,0 +1,16 @@
+package com.class27;
+
+public class FinalKeyword {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		String str="I am awesome";
+		str="I am cool";
+		System.out.println(str);
+		
+		
+	}
+
+}

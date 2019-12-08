@@ -1,0 +1,24 @@
+package com.class24;
+
+public class ThisWithConstructor {
+
+	
+	//CREATING 2 CONSTRUCTORS WITH NO ARGUMENTS and ARGUMENTS
+	
+	ThisWithConstructor(){
+		System.out.println("I am non arugment constructor");
+	}
+	ThisWithConstructor(String str){ //creating with parameters
+		this();// used to call current class constructor // not passing any values 
+		System.out.println("I am constructor with 1 String parameter");
+		
+	}
+	public static void main(String[] args) {
+		//ThisWithConstructor obj=new ThisWithConstructor(); // will get executed with non argument cons
+		ThisWithConstructor obj=new ThisWithConstructor("Hello");
+		
+		//can we EXECUTE 2 CONSTRUCTORS at the same time?
+		//YES! it can be acheived using THIS() 
+		
+	}
+}

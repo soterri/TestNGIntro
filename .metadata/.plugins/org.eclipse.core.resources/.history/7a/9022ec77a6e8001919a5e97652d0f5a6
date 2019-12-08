@@ -1,0 +1,42 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class ClassTask1 {
+
+	public static void main(String[] args) {
+		/* ask user to enter the month they were born
+		 * based on the month, define the season
+		 * if user is born in Janary, Feb, Dec -> winter
+		 * march april may spring
+		 * june july aug summer
+		 * sep oct nov fall
+		 * otherwise unknown
+		 * at the end of the program - "you were born in X season
+		 */
+
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the month you were born");
+		String month=scan.nextLine();
+		String season = null;
+		
+
+		
+		if(season.equals("January") || season.equals("February") || season.equals("December")) {
+			season="Winter";
+		}else if (season.equals("March") || season.equals("April") || season.equals("May")) {
+			season="Spring";
+		}else if (season.equals("June") || season.equals("July") || season.equals("August")) {
+			season="Summer";
+		}else if (season.contentEquals("Sept") || season.equals("October") || season.equals("November")) {
+			System.out.println("Fall");
+			System.out.println("You were born in " + season);
+		}else { 
+			System.out.println("Invalid month");
+			
+			
+		
+		}
+		}
+
+}

@@ -1,0 +1,17 @@
+package com.class29;
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		
+	//creating obj of phone class
+		//Phone phone=new Phone(); -- will get an CE bc can not instantiate(incomplete) the class. cant directly create an obj of abstract class 
+		//we can create it INDIRECTLY by creating the obj of the child class and give it a reference to the parent class
+		
+		Phone phone=new iPhone();  
+		phone.makeCall();
+		phone.sendText();
+		phone.takePictures();
+		phone.playGames();
+	}
+}

@@ -1,0 +1,19 @@
+package com.class6;
+
+public class WhileLoopPratice {
+
+	public static void main(String[] args) {
+	
+		//how to print from 1-20 
+		
+		int i=0;
+		
+		while (i<=20) {
+			System.out.println(i);
+			i++;
+			
+		}
+
+	}
+
+}

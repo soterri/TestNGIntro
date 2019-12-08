@@ -1,0 +1,16 @@
+package com.class30;
+
+public class DrivableTest {
+
+	public static void main(String[] args) {
+		Drivable obj=new Toyota();
+		obj.drive();
+		//obj.DRIVE_FAST=false; will get a CE bc can not change the value -- can not be re assigned
+		
+		Toyota toyota=new Toyota();
+		toyota.drive();
+		toyota.stop();
+		
+		
+	}
+}

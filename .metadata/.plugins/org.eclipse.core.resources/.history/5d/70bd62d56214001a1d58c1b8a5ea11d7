@@ -1,0 +1,19 @@
+package com.class28;
+//class device, then create a child class "Apple"
+public class Device {
+	
+	String deviceType, name; //instance variables we initalize by constructor
+	
+	public Device(String deviceType, String name) { //initializing by parameters
+		this.deviceType=deviceType;
+		this.name=name;
+	}
+}
+
+class Apple extends Device{ //now when ur a child of this class you would want access to the variable, whos intial? -> constructor. 
+
+	public Apple(String deviceType, String name) {
+		super(deviceType, name); 
+		
+	}
+}

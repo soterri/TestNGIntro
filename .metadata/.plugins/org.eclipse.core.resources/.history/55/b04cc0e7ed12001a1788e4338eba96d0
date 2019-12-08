@@ -1,0 +1,30 @@
+package com.class26;
+
+public class RecapOnOverloading {
+
+	/* POLYMORPHISM 
+	 * compile time/static binding/early binding
+	 * 
+	 */
+	
+	public void hello() {
+		System.out.println("Hello");
+	}
+	
+	public void hello(String str) { 
+		System.out.println("Hello" +str);
+	}
+	
+	public void hellp(int num) { //not overloading
+		System.out.println("Hello" + num);
+	} 
+	public String hello1(String str) { // not overloading
+		return str;
+	}
+	public static void main(String[] args) {
+		RecapOnOverloading obj=new RecapOnOverloading();
+		obj.hello();
+		obj.hello("I is me");
+		
+	}
+}

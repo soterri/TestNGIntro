@@ -1,0 +1,58 @@
+package com.class31_GroupTasks;
+
+
+
+
+
+public interface Shape {
+
+public static final double PI=3.14;
+public void calculateArea();
+public void calculatePerimeter();
+}
+class Circle implements Shape{
+int radius;
+Circle(int radius){
+	this.radius=radius;
+}
+	public void calculateArea() {
+		System.out.println("This is the area: " +PI*radius*radius);
+		
+	}
+
+	@Override
+	public void calculatePerimeter() {
+		System.out.println("This is the perimeter of a circle: "+ (2*PI*radius));
+	}
+	class Square implements Shape{
+		int length;
+		Square(int length){
+			this.length=length;
+			
+		}
+		public void calculateArea() {
+			System.out.println("The area of a square is: " +(length*length));
+		}
+		@Override
+		public void calculatePerimeter() {
+			System.out.println("The perimeter of a square is "+(4*length));
+			
+		}
+		
+	}
+	
+
+
+	
+	
+	
+	
+	
+	/*Create an Interface ‘Shape’ with undefined methods as calculateArea and calculatePerimiter . 
+	*Create 2 child classes: Circle & Square that should 
+	*have an implementation of area and perimeter calculation. Test your code.
+	*/
+	
+	
+	
+}

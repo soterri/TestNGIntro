@@ -1,0 +1,19 @@
+package com.repltasks;
+
+public class Main {
+
+	
+		
+		String makeCapital(){
+		  String str="test1";
+		  str=str.toUpperCase();
+		  return str;
+		}
+		
+		public static void main(String[] args){
+		Main ans=new Main();
+		String obj=ans.makeCapital();
+		System.out.println(obj);
+	}
+	}
+

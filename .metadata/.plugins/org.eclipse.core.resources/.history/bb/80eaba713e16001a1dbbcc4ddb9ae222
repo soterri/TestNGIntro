@@ -1,0 +1,84 @@
+package com.class29;
+
+public abstract class File {
+
+	public void JavaFile() {
+		System.out.println("This is to open");
+	}
+	public void WordFile() {
+		System.out.println("This is to edit");
+	}
+	public void PDFFile() {
+		System.out.println("This is to close");
+	}
+	public abstract void toOpen();
+	
+	public abstract void toEdit();
+	
+	public abstract void toClose();
+}
+//CONCRETE CLASS
+class JavaFile extends File{
+
+	@Override
+	public void toOpen() {
+		System.out.println("To open java.file");
+		
+	}
+
+	@Override
+	public void toEdit() {
+		System.out.println("To edit a java.file");
+		
+	}
+
+	@Override
+	public void toClose() {
+		System.out.println("To close a java.file");
+		
+	}
+class WordFile extends File{
+
+	@Override
+	public void toOpen() {
+		System.out.println("To open word.file");
+		
+	}
+
+	@Override
+	public void toEdit() {
+		System.out.println("To edit word.file we need editor");
+		
+	}
+
+	@Override
+	public void toClose() {
+		System.out.println("To close word.file go to top right and press X");
+		
+	}
+class PDFFile extends File{
+
+	@Override
+	public void toOpen() {
+		System.out.println("To open PDF File ");
+		
+	}
+
+	@Override
+	public void toEdit() {
+		System.out.println("To edit PDF file");
+		
+	}
+
+	@Override
+	public void toClose() {
+		System.out.println("To close PDF file");
+		
+	}
+	
+}
+	
+}
+	
+}
+

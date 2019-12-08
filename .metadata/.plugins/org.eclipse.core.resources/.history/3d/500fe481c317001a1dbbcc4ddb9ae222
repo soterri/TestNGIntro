@@ -1,0 +1,14 @@
+package com.class30;
+
+public class VehicleTest {
+
+	public static void main(String[] args) {
+		
+		//new BMW(); gets a CE bc you need to pass a value
+		BMW bmw=new BMW("767JBH676", "Sedan", "BMW", "X5");
+		
+		Car car=new BMW("767JBH676", "Sedan", "BMW", "X5");
+	}
+	
+
+}

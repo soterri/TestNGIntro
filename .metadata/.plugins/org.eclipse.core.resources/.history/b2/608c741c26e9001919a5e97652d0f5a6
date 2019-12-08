@@ -1,0 +1,43 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class SwitchStatement {
+
+	public static void main(String[] args) {
+	
+		
+		Scanner scan=new Scanner(System.in);
+		boolean answer;
+		int score;
+		String eligibility;
+		
+		System.out.println("Do you need a loan?");
+		boolean loanquestion=scan.hasNextBoolean();
+		
+		
+		System.out.println("I do not need a loan");
+		String noloan=scan.nextLine();
+		}
+		
+		System.out.println("What is your credit score?");
+		score=scan.nextInt();
+		
+		
+	
+		if (score<=600) {
+			System.out.println("You are not eligible for a loan");
+		}else if (score>=600 || score<700) {
+			System.out.println("You may be elgible for a loan");
+		}else if (score>=701 && score<800) {
+			System.out.println("You are eligible for a loan");
+		}else if (score>800) {
+			System.out.println("You are defintely eligible for a loan!");
+		}else {
+			System.out.println("Invalid Input");
+			
+		}
+		System.out.println("The eligbility is " +score);
+	}
+}
+

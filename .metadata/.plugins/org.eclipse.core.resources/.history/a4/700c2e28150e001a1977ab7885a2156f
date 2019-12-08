@@ -1,0 +1,34 @@
+package com.class24;
+
+public class ThisKeyword {
+
+	
+	
+	
+	
+	//local vari
+	int a, b;
+	
+	//creating a constructor, thru this constructor will try to initialize parameters
+	//instance 
+	public ThisKeyword(int a, int b) {
+		this.a=a;
+		this.b=b;
+		//wanting to differentiate b/w local and instance use THIS keyword
+	}
+	public void sum(int a, int b) {
+		System.out.println("The sum of the local parameters is " +(a+b)); 
+		System.out.println("The sum of the  instane variables is " +(this.a+this.b)); //still referring to 
+		//local variable will need to use this to differentiate 
+		//local parameters has  same name as local 
+	}
+	// testing the code 
+	public static void main(String[] args) {
+		//access to instance method, create an object
+		ThisKeyword obj=new ThisKeyword(5,10);
+		obj.sum(10,20);
+		
+		
+		
+	}
+}

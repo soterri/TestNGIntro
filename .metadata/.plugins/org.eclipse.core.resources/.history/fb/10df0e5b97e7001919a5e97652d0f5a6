@@ -1,0 +1,27 @@
+package com.class5;
+
+public class LogicalOpsTasks {
+
+	public static void main(String[] args) {
+		
+	
+		//Prompt the user to enter person heights in inches. Person should be 
+		//classified as one of the following:
+			
+		//short (under 5 feet)
+		//medium(5 to 6 feet)
+		//tall (6 feet and over)
+
+		int day=5;
+		if (day==1 && day==7) {
+			System.out.println("It is a weekend");
+		}else if(day==2 || day==3 || day==4 || day==5 || day==6) {
+			System.out.println("It is a weekday");
+		}else {
+			System.out.println("Invalid day");
+			
+	
+		}
+	}
+
+}

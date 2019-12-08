@@ -1,0 +1,21 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		/*ask user to enter boolean value
+		 * if no sale --> no shopping
+		 * if sale --> check the price of the item
+		 * based on the amount we will have to calculate the price after discount
+		 * if price will be less than $20 than apply 10% d/c 
+		 * if price b/w 20 -100 will give 20% d/c 
+		 * if b/w 100-500 will give 30% d/c
+		 * anything else 50% d/c
+		 * at the end of program... after d/c the price of the item reduced from x to x 
+		 */
+
+		
+	}
+}

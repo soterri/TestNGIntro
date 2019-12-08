@@ -1,0 +1,26 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class LogicalHomework {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter your score");
+		int average=scan.nextInt();
+		
+		if(average>=90) {
+			System.out.println("You got an A");
+		}else if(average>=70 && average<90) {
+			System.out.println("You got a B");
+		}else if(average>=50 && average<70 ) {
+			System.out.println("You got a C");
+		}else if (average<=50) {
+			System.out.println("You got an F");
+		}else {
+			System.out.println("You don't have a score");
+			
+}
+}
+}

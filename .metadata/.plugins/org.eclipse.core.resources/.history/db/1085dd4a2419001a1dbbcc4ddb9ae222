@@ -1,0 +1,13 @@
+package com.class31_GroupTasks;
+
+public class ShapeTest {
+
+	public static void main(String[] args) {
+		Shape st=new Circle();
+		st.calculateArea();
+		st.calculateArea();
+		
+
+	}
+
+}

@@ -1,0 +1,57 @@
+package com.class27;
+
+public class CardTest {
+
+	public static void main(String[] args) {
+		
+		//runtime polymorphism can be achieved through overriding
+		//take an obj of the child class and give ref to parent 
+		//reference variable = object is created
+		//during runtime - java virtual machine JVM- will look at runtime obj
+		//
+		Card card=new AX();
+		card.creditLimit();
+		
+		Card card1=new MC();
+		card1.creditLimit();
+		
+		Card card2=new Visa();
+		card2.creditLimit();
+		
+		//type array[]={} 
+		//type array[]=new type[]; 
+		int[] numArray={10,12,13};
+		String[] stringArray= {"aa, bb"};
+		
+		//creating a CARD ARRAY, will hold NON prim types
+		Card[] cardArray= {card, card1, card2};
+		Card[] cardArray1= {new MC(), new AX(), new Visa()};
+		
+		//cardArray[0] --MC
+		//cardArray[1] -- AX
+		
+		for(Card myCard:cardArray1) {
+			myCard.creditLimit();
+			
+		}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// line 10 - creating an obj of child class -- process of typecasting
+// casting an obj is changing the hierachy 

@@ -1,0 +1,49 @@
+package com.repltasks;
+
+public class Main {
+
+	
+		
+//		String makeCapital(){
+//		  String str="test";
+//		  str=str.toUpperCase();
+//		  return str;
+//		}
+//		
+//		public static void main(String[] args){
+//		Main ans=new Main();
+//		String obj=ans.makeCapital();
+//		System.out.println(obj);
+	//}
+//			int addTwo(int x, int y){
+//			  int sum=x+y;
+//			  return sum;
+//
+//			  }
+//			  public static void main(String[] args){
+//			    Main equals=new Main();
+//			    int sum=equals.addTwo(15,10);
+//			    System.out.println(sum);
+//	}
+//			
+//			}
+//
+		  
+		  boolean bothEven(int num1, int num2){
+		    boolean isEven;
+		    
+				if(num1%2==0) {
+					isEven=true;
+				}else {
+					isEven=false;
+				}
+				return isEven;
+		    
+		  }
+		  public static void main(String[] args){
+		    Main obj=new Main();
+		    boolean result=obj.bothEven(4,6);
+		    System.out.println(result);
+		  
+		  }	
+		}

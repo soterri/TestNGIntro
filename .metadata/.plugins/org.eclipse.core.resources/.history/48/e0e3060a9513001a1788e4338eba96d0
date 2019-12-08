@@ -1,0 +1,18 @@
+package com.class27;
+
+public class Student {
+
+	public void SyntaxStudent() {
+		System.out.println("I am a student in Syntax");
+	}
+	public void CollegeStudent() {
+		System.out.println("I am a college student");
+	}
+	public void SchoolStudent() {
+		System.out.println("My kids are school students");
+	}
+	public static void main(String[] args) {
+		Student student1=new Student();
+		
+	}
+}

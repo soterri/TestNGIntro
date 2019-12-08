@@ -1,0 +1,23 @@
+package com.class25;
+
+public class Programming {
+	
+	//create a class named ‘Programming’. While creating an object of the class, if nothing is passed to it, 
+	//then the message “I love programming languages” should be printed. If
+	//some String is passed to it, then in place of “programming languages” the value variable should
+	//be printed. Example, if we pass “Java”, then “I love Java” should be printed
+    
+	private void Programming() {
+		System.out.println("I love programming languages");
+	}
+	private void Programming(String str) {
+		System.out.println("I have Java 5 days out the week" +str);
+		}
+	public static void main(String str, String[] args) {
+		System.out.println("I love programming");
+	}
+	public static void main(String[] args) {
+		System.out.println("Javaaa");
+		
+	}
+}

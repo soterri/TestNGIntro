@@ -1,0 +1,21 @@
+package com.class6;
+
+public class Loop {
+
+	public static void main(String[] args) {
+		
+		int time=8;
+		
+		if(time<12) { // condition is true
+			System.out.println("Good Morning"); // code executes 1
+		}
+		while (time<12) { //if condition is true
+			System.out.println("Good Morning"); //code executes infinitely, no ending 
+			//infinite loop bc theres no stop.. to stop it we can either have BREAK or
+			time++;
+			
+			
+		}
+	}
+
+}

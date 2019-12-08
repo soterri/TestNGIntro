@@ -1,0 +1,27 @@
+package com.class4;
+
+import java.util.Scanner;
+
+public class replHomework {
+
+	  
+	  public static void main(String[] args) {
+		 
+	    Scanner Scanner = new Scanner(System.in);
+	    System.out.println("Please enter your age");
+	    java.util.Scanner scan;
+		int age=scan.nextInt();
+	    
+	    int age1=18;
+	    
+	    if (age<18){
+	      System.out.println("You are not eligible to vote");
+	    
+	    if (age>=18){
+	    System.out.println("You are eligible to vote");
+	    
+	    }
+	    }
+	
+	  }
+}

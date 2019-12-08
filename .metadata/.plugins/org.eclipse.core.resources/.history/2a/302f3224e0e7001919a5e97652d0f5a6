@@ -1,0 +1,31 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class LogicalAndScanner {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		/* ask user to enter age 1
+		 * if age is from 1-3 - will say youre a baby
+		 * if age 3-5 - you will say you are a toddler
+		 * if age 5-12 - you will say you are a kid
+		 * if age 12-19 - you are a teenager
+		 * if age >20 you are an adult
+		 * testing multiple conditions
+		 * we will be using if greater, equal, and 
+		 */
+		
+		Scanner age=new Scanner(System.in);
+		
+		
+	
+		}
+	
+		
+	}
+
+

@@ -1,0 +1,33 @@
+package com.class5;
+
+import java.util.Scanner;
+
+public class SwitchAndScanner {
+
+	public static void main(String[] args) {
+		/* ask user to enter their gender 
+		 * based on input provide 
+		 * if F than female
+		 * if M than male
+		 * otherwise, their gender is unk
+		 */
+		
+	char gender;
+	Scanner scan;
+	
+	scan=new Scanner(System.in);
+	System.out.println("Please enter your gender");
+	scan.next().charAt(0);
+	
+	
+	
+	
+	
+		
+	
+		
+	}
+		
+		
+	}
+

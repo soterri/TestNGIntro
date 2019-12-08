@@ -1,0 +1,23 @@
+package com.class28;
+
+public class Room extends Building {
+	//by using extends this subclass room has an access to all behaviors of building 
+	
+	int roomNumber;
+	
+	Room(String address, int floor, int roomNumber){
+		super(address, floor); //why does it call? bc it can give inital val to vari
+		this.roomNumber=roomNumber;
+		
+	}
+	public void print() {
+		System.out.println(address+" "+floor+" "+roomNumber);
+	}
+	public static void main(String[] args) {
+		Room room=new Room("121 Test Driver", 10, 101); // will have to pass int parameter 
+		//System.out.println(room.floor);
+		room.print();
+	}
+	
+
+}

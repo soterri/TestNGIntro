@@ -1,0 +1,9 @@
+package com.class26;
+
+public class Animal {
+	
+
+}
+class Cat extends Animal{
+	
+}

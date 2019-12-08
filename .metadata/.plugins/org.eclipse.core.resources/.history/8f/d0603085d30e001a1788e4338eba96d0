@@ -1,0 +1,17 @@
+package com.class25;
+
+public class Test {
+	
+	public static void main(String[] args) {
+	//to test the codes of ScrumTeam and Employee
+	
+		System.out.println("Creating an object");
+		Employee emp=new Employee();
+		emp.salary=70000;
+		Employee.companyName="Syntax";
+		emp.work();
+		emp.getPaid();
+		
+	}
+
+}

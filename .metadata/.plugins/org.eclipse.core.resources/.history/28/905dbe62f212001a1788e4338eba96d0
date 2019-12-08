@@ -1,0 +1,12 @@
+package com.class26;
+
+public class Employee {
+	 
+	//defing common feats
+	public int salary;
+	
+	public void getPaid() { //over ridden
+		System.out.println("Employee gets paid " +salary);
+	}
+	
+}
