@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2020-01-28T09:38:49 EST" finished-at="2020-01-28T09:38:50 EST">
+    <groups>
+      <group name="regression">
+        <method signature="ListenersDemo.test1()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test1" class="com.class04.ListenersDemo"/>
+        <method signature="ListenersDemo.test2()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test2" class="com.class04.ListenersDemo"/>
+        <method signature="ListenersDemo.test3()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test3" class="com.class04.ListenersDemo"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2020-01-28T09:38:49 EST" finished-at="2020-01-28T09:38:50 EST">
+      <class name="com.class04.ListenersDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test1" duration-ms="22" started-at="2020-01-28T09:38:50 EST" finished-at="2020-01-28T09:38:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test2" duration-ms="2" started-at="2020-01-28T09:38:50 EST" finished-at="2020-01-28T09:38:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.class04.ListenersDemo@5383967b]" name="test3" duration-ms="2" started-at="2020-01-28T09:38:50 EST" finished-at="2020-01-28T09:38:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.class04.ListenersDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
